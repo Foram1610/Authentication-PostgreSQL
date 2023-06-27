@@ -1,0 +1,9 @@
+* To create the folder structure for sequelize :
+
+	npx sequelize-cli init
+
+* Command for create models and migrations in the project : 
+
+	npx sequelize-cli model:generate --name [User][table_name] --attributes [fullName:string,gender:string,email:string,age:number][fields]
+
+sequelize model:generate --name User --attributes name:string,email:string
